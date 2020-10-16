@@ -7,3 +7,4 @@ my portfolio is made using the following:
 * Javascript
 * Bootstrap
 * Jquery
+* responsive

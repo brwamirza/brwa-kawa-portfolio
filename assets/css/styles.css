@@ -703,7 +703,34 @@
     -o-transform: translateX(5px);
     transform: translateX(5px);
 }
-
+a[href^=tel] {
+    text-decoration:inherit;
+    color: inherit;
+ }
+li,
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+a[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+-moz-appearance: none;
+appearance: none;
+opacity: 1;
+}
+.phone{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+.phone:hover{
+    text-decoration: none;
+    color: #000;
+}
 /*============================================
 * END Contact Area
 *=============================================*/
